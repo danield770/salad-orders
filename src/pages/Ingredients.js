@@ -13,7 +13,7 @@ function Ingredients() {
       </p>
       <Order />
       {ingredients.some((item) => item.quantity) && (
-        <Link className='link-button' to='/checkout'>
+        <Link className='link-button' to='/salad-orders/checkout'>
           Proceed to Checkout
         </Link>
       )}

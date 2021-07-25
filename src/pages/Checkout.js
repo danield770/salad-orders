@@ -39,7 +39,7 @@ function Checkout() {
             <Link
               className='link-button'
               onClick={() => dispatch(resetOrder())}
-              to='/'
+              to='/salad-orders'
             >
               Close
             </Link>

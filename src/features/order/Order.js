@@ -21,7 +21,7 @@ export function Order() {
   return (
     <div>
       {status === 'loading' ? (
-        <div className='loading'>Loading...</div>
+        <div className='loading'></div>
       ) : (
         <ul className='order-list'>
           {ingredients?.length > 0 &&

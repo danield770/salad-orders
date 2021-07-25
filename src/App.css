@@ -20,8 +20,9 @@
   color: var(--dark-color);
 }
 .loading {
-  width: 0.6rem;
-  height: 0.6rem;
+  width: 2rem;
+  height: 2rem;
+  margin: 3rem auto;
   border: 2px solid var(--dark-color);
   border-top: 2px solid transparent;
   border-radius: 50%;

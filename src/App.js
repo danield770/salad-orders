@@ -9,13 +9,13 @@ function App() {
   return (
     <Router>
       <div className='app'>
-        <Route path='/'>
+        <Route path='/salad-orders'>
           <Home />
         </Route>
-        <Route path='/ingredients'>
+        <Route path='/salad-orders/ingredients'>
           <Ingredients />
         </Route>
-        <Route path='/checkout'>
+        <Route path='/salad-orders/checkout'>
           <Checkout />
         </Route>
       </div>
