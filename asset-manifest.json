@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/salad-orders/static/css/main.479a5eeb.chunk.css",
+    "main.css": "/salad-orders/static/css/main.411cc9e2.chunk.css",
     "main.js": "/salad-orders/static/js/main.665555aa.chunk.js",
     "main.js.map": "/salad-orders/static/js/main.665555aa.chunk.js.map",
     "runtime-main.js": "/salad-orders/static/js/runtime-main.3d1ce898.js",
@@ -8,13 +8,13 @@
     "static/js/2.382317e9.chunk.js": "/salad-orders/static/js/2.382317e9.chunk.js",
     "static/js/2.382317e9.chunk.js.map": "/salad-orders/static/js/2.382317e9.chunk.js.map",
     "index.html": "/salad-orders/index.html",
-    "static/css/main.479a5eeb.chunk.css.map": "/salad-orders/static/css/main.479a5eeb.chunk.css.map",
+    "static/css/main.411cc9e2.chunk.css.map": "/salad-orders/static/css/main.411cc9e2.chunk.css.map",
     "static/js/2.382317e9.chunk.js.LICENSE.txt": "/salad-orders/static/js/2.382317e9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3d1ce898.js",
     "static/js/2.382317e9.chunk.js",
-    "static/css/main.479a5eeb.chunk.css",
+    "static/css/main.411cc9e2.chunk.css",
     "static/js/main.665555aa.chunk.js"
   ]
 }
