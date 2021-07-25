@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 function Home() {
   const location = useLocation();
-  const isHomePage = location.pathname === '/salad-orders';
+  const isHomePage = location.pathname === '/salad-orders/';
   return (
     <section>
       <h1>The salad boutique</h1>
