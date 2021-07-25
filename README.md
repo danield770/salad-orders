@@ -1,3 +1,10 @@
+## Salad Orders
+
+An online version of the app can be found at:
+
+https://danield770.github.io/salad-orders/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
