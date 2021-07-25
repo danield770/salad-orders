@@ -1,0 +1,154 @@
+:root {
+  --h: 256;
+  --s: 73%;
+  --l: 62%;
+  --light: 90%;
+  --dark: 46%;
+  --color: hsl(var(--h), var(--s), var(--l));
+  --light-color: hsl(var(--h), var(--s), var(--light));
+  --dark-color: hsl(var(--h), var(--s), var(--dark));
+  --alpha-color: hsl(var(--h), var(--s), var(--light), 0.7);
+}
+.app {
+  text-align: center;
+  border: thick double var(--color);
+  width: 70vw;
+  height: 90vh;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  color: var(--dark-color);
+}
+.loading {
+  width: 0.6rem;
+  height: 0.6rem;
+  border: 2px solid var(--dark-color);
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  animation: spin 0.5s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+p {
+  font-size: 1.5em;
+}
+h1 {
+  margin: 0;
+  background-color: var(--light-color);
+}
+h1::after {
+  content: '☙';
+  font-size: 3em;
+  vertical-align: middle;
+  padding: 0 1rem;
+}
+.welcome {
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 6rem;
+}
+.link-button {
+  display: inline-block;
+  margin-top: 3rem;
+  font-size: 2em;
+}
+.order-list {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  display: inline-grid;
+  grid-template-columns: auto 3rem;
+  grid-gap: 1rem;
+}
+.order-item {
+  display: contents;
+}
+.checkout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem;
+}
+table {
+  display: inline-grid;
+  grid-gap: 1rem 0.5rem;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, auto);
+}
+thead,
+tbody,
+tfoot,
+tr {
+  display: contents;
+}
+.ingredient {
+  text-align: left;
+}
+.price {
+  text-align: right;
+}
+tfoot td:first-child {
+  margin-top: 1rem;
+  grid-column: 2/3;
+}
+tfoot td:last-child {
+  margin-top: 1rem;
+  grid-column: 3/3;
+}
+.form-field {
+  display: flex;
+  margin: 2rem;
+  align-items: center;
+}
+.form-field label {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.form-field input {
+  height: 2rem;
+  padding: 0 0.5rem;
+  flex: 1;
+}
+.form-field.text-area {
+  flex-direction: column;
+  align-items: flex-start;
+}
+textarea {
+  width: 100%;
+  height: 6rem;
+  margin-top: 0.5rem;
+  box-sizing: border-box;
+}
+.btn-primary {
+  border: 1px solid var(--dark-color);
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  padding: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.modal {
+  background-color: var(--alpha-color);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  padding: 3rem;
+  border: 3px solid var(--dark-color);
+  background: white;
+}
+.modal-content div {
+  margin: 0.5rem 0;
+}
