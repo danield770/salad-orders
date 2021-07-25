@@ -181,6 +181,9 @@ textarea {
   .btn-primary {
     margin-bottom: 2rem;
   }
+  .btn-primary[disabled] {
+    opacity: 0.3;
+  }
   .modal-content {
     padding: 1rem;
     box-sizing: border-box;
