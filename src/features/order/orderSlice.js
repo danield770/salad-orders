@@ -4,7 +4,7 @@ import { getIngredients } from './orderAPI';
 const initialState = {
   ingredients: [],
   status: 'idle',
-  user: [],
+  user: {},
   showModal: false,
 };
 
@@ -45,7 +45,7 @@ export const orderSlice = createSlice({
         delete item.quantity;
         return item;
       });
-      state.user = [];
+      state.user = {};
       state.showModal = false;
     },
     setUserDetails: (state, action) => {

@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className='app'>
-        <Route path='/salad-orders'>
+        <Route path='/salad-orders/'>
           <Home />
         </Route>
         <Route path='/salad-orders/ingredients'>

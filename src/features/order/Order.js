@@ -9,6 +9,7 @@ import {
 
 export function Order() {
   const ingredients = useSelector(selectIngredients);
+  console.log('ingredients: ', ingredients);
   const status = useSelector(selectStatus);
   const dispatch = useDispatch();
 

@@ -58,7 +58,6 @@ function Form() {
           placeholder="What's on your mind?"
           id='note'
           ref={noteRef}
-          onChange={checkFormValidity}
         ></textarea>
       </div>
 
